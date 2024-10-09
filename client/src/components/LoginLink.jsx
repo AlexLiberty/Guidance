@@ -1,4 +1,4 @@
-export default function ProfileLink() {
+export default function LoginLink() {
   return (
     <>
       <a

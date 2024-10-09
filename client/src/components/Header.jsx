@@ -7,14 +7,14 @@ import LoginLink from "../components/LoginLink";
 
 export default function Header() {
   return (
-    <header className="h-20 flex items-center justify-center">
+    <header className="h-20 flex items-center justify-center select-none ">
       <div className="pl-20 w-1/2 h-full flex items-center justify-start">
         <FontAwesomeIcon
           icon={faBarsStaggered}
           rotation={180}
           style={{ color: "#581ADB" }}
         />
-        <h1 className="text-black text-3xl font-bold select-none pb-2">
+        <h1 className="text-black text-3xl font-bold pb-2">
           Guidance
         </h1>
         <FontAwesomeIcon
